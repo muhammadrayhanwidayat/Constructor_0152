@@ -33,4 +33,9 @@ int main(){
     Mahasiswa mhs3("Andi Janu");
     Mahasiswa mhs4("Joko Wahana");
 
+    mhs1.printAll();
+    mhs2.printAll();
+
+
+
 }
