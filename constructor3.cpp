@@ -14,6 +14,13 @@ public:
     void cetak();
 };
 
+Mahasiswa::Mahasiswa(){
+    nim = 152;
+    nama = "";
+}
+
+
+
 
 
 
