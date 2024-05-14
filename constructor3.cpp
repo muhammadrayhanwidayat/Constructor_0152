@@ -7,28 +7,23 @@ private:
     int nim;
     string nama;
 public:
-    Mahasiswa();
-    Mahasiswa(int);
-    Mahasiswa(string);
-    Mahasiswa(int inim, string inama);
+    Mahasiswa(){
+        nim=152;
+        nama="";
+    };
+    Mahasiswa(int a){
+        nim = a;
+    };
+    Mahasiswa(string b){
+        nama = b;
+    };
+    Mahasiswa(int inim, string inama){
+        nim=inim;
+        nama=inama;
+    };
     void cetak();
-
-    void Mahasiswa(){
-    nim = 152;
-    nama = "";
-    }
-
-    void Mahasiswa(int iNim){
-    nim = iNim;
-    }
-
-
 };
 
-Mahasiswa::Mahasiswa(int iNim,string iNama){
-    nim = iNim;
-    nama = iNama;
-}
 
 void Mahasiswa::cetak(){
     cout<<endl <<"Nim=" <<nim <<endl;
