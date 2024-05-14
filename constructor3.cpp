@@ -28,11 +28,11 @@ Mahasiswa::Mahasiswa(int iNim,string iNama){
     nama = iNama;
 }
 
+void Mahasiswa::cetak(){
+    cout<<endl <<"Nim=" <<nim <<endl;
+    cout<<endl <<"Nama=" <<nama <<endl;
 
-
-
-
-
+}
 
 
 int main(){
