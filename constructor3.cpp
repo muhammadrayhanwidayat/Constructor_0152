@@ -12,16 +12,18 @@ public:
     Mahasiswa(string);
     Mahasiswa(int inim, string inama);
     void cetak();
-};
 
-Mahasiswa::Mahasiswa(){
+    Mahasiswa(){
     nim = 152;
     nama = "";
-}
+    }
 
-Mahasiswa::Mahasiswa(int iNim){
+    Mahasiswa(int iNim){
     nim = iNim;
-}
+    }
+
+
+};
 
 Mahasiswa::Mahasiswa(int iNim,string iNama){
     nim = iNim;
@@ -36,5 +38,9 @@ void Mahasiswa::cetak(){
 
 
 int main(){
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Asroni");
+    Mahasiswa mhs3("Andi Kurniawan");
+    Mahasiswa mhs4("Joko Purbo");
 
 }
