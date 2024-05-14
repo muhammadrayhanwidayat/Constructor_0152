@@ -20,7 +20,11 @@ public:
 
 int Mahasiswa::nim= 152;
 
-
+void Mahasiswa::printAll(){
+    cout<<"ID   =" <<id<<endl;
+    cout<<"Nama   =" <<nama<<endl;
+    cout<<endl;
+}
 
 
 
