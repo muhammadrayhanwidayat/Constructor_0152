@@ -8,8 +8,6 @@ private:
     string nama;
 public:
     Mahasiswa(){
-        nim=152;
-        nama="";
     };
     Mahasiswa(int a){
         nim = a;
@@ -46,6 +44,5 @@ int main(){
 
     system("pause");
     return 0;
-    
 
 }
