@@ -13,12 +13,12 @@ public:
     Mahasiswa(int inim, string inama);
     void cetak();
 
-    Mahasiswa(){
+    void Mahasiswa(){
     nim = 152;
     nama = "";
     }
 
-    Mahasiswa(int iNim){
+    void Mahasiswa(int iNim){
     nim = iNim;
     }
 
@@ -38,10 +38,10 @@ void Mahasiswa::cetak(){
 
 
 int main(){
-    Mahasiswa mhs1("Lia Kurnia");
-    Mahasiswa mhs2("Asroni");
+    Mahasiswa mhs1;
+    Mahasiswa mhs2(20);
     Mahasiswa mhs3("Andi Kurniawan");
-    Mahasiswa mhs4("Joko Purbo");
+    Mahasiswa mhs4(30,"Joko Purbo");
 
     mhs1.cetak();
     mhs2.cetak();
