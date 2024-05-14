@@ -8,9 +8,11 @@ private:
     string nama;
 public:
     Mahasiswa(){
+        nim = 0;
+        nama = "";
     };
-    Mahasiswa(int a){
-        nim = a;
+    Mahasiswa(int iNim){
+        nim = iNim;
     };
     Mahasiswa(string b){
         nama = b;
