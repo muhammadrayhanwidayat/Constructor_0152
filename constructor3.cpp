@@ -19,6 +19,10 @@ Mahasiswa::Mahasiswa(){
     nama = "";
 }
 
+Mahasiswa::Mahasiswa(int iNim){
+    nim = iNim;
+}
+
 
 
 
