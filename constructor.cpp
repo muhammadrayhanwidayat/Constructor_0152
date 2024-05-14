@@ -29,19 +29,8 @@ void Mahasiswa::printAll(){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 int main(){
 
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Asroni");
 }
