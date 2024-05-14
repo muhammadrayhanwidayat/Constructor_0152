@@ -42,5 +42,6 @@ int main(){
     mhs4.printAll();
 
     system("pause");
-    
+
+    return 0;
 }
